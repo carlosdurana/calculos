@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculos
 {
-    internal class Aritmetica
+    internal static class Aritmetica
     {
         public enum ConversaoTemperatura
         {
@@ -15,17 +15,17 @@ namespace Calculos
             FahrenheitCelsius
         }
         
-        public int Somar(int x, int y)
+        public static int Somar(int x, int y)
         {
             return x + y;
         }
 
-        public int Subtrair(int x, int y)
+        public static int Subtrair(int x, int y)
         {
             return x - y;
         }
 
-        public double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
+        public static double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
         {
             if (conversao == ConversaoTemperatura.CelsiusFahrenheit)
             {
