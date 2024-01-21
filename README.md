@@ -1,2 +1,37 @@
-# calculos
- Aplicação C# para efetura diversos tipos de cálculos
+# Cálculos :1234:
+
+
+ Aplicação C# para efetura diversos tipos de cálculos.
+ 
+ ![Aplicação Cálculos](aplicacao-calculos.png)
+
+ Desenvolvida no âmbito da ação de formação ** Introdução ao Git e GitHub**
+
+ ## Operações suportadas
+
+ Neste momento a apliação implementa as seguintes operações:
+
+- Aritméticas
+    - soma
+    - subtração
+    - multiplicação
+  
+- Conversões
+    - conversão de temperaturas
+        - celsius :arrow_right: fahrenheit
+        - fahrenheit :arrow_right: celsius
+    - conversão de distâncias
+        - metros :arrow_right: milhas
+        - milhas :arrow_right: metros
+
+## Tecnologias utilizadas neste projeto
+
+- Visual Studio
+- C#
+- Git
+- GitHub Desktop
+- Plataforma GitHub
+
+## Site oficial
+
+Este repositório é fictício!
